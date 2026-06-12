@@ -220,7 +220,7 @@ elif menu == "📚 Rumus & Cheat Sheet":
 
         satuan_pokok = [
             ["Panjang", "meter", "m"],
-            ["Massa", "kilogram", "kg"],
+            ["Massa", "gram", "g"],
             ["Waktu", "second", "s"],
             ["Arus listrik", "ampere", "A"],
             ["Suhu", "kelvin", "K"],
