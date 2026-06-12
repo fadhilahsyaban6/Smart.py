@@ -92,6 +92,18 @@ if menu == "🏠 Beranda":
         "dan latihan soal interaktif untuk mahasiswa fisika dasar."
     )
 
+    st.markdown("---")
+    st.subheader("👥 Anggota Kelompok")
+    st.markdown("""
+**By Kelompok 4 :**
+
+1. Muhammad Nur Fadhilah Syaban
+2. Muhammad Pasha Rajbani
+3. Mutiara Febriani Kustiawan
+4. Susan Nadiva Mazarina
+5. Zulva Aura Salsabilla
+    """)
+    
     col1, col2, col3 = st.columns(3)
     with col1:
         st.subheader("🧮 Kalkulator Cerdas")
@@ -196,17 +208,6 @@ if menu == "🏠 Beranda":
     st.markdown("---")
     st.info("💡 **Tips**: Gunakan menu di sidebar untuk mengakses fitur kalkulator, konverter, dan quiz!")
     
-    st.markdown("---")
-    st.subheader("👥 Anggota Kelompok")
-    st.markdown("""
-**By Kelompok 4 :**
-
-1. Muhammad Nur Fadhilah Syaban
-2. Muhammad Pasha Rajbani
-3. Mutiara Febriani Kustiawan
-4. Susan Nadiva Mazarina
-5. Zulva Aura Salsabilla
-    """)
 
 # ==================== HALAMAN RUMUS & CHEAT SHEET ====================
 elif menu == "📚 Rumus & Cheat Sheet":
