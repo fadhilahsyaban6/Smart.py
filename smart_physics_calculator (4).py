@@ -30,7 +30,7 @@ PHYSICS_CONSTANTS = {
 UNIT_TABLE = {
     "Panjang": {"m": 1, "km": 1000, "cm": 0.01, "mm": 0.001, "µm": 1e-6, "nm": 1e-9, "ft": 0.3048, "in": 0.0254, "mi": 1609.34},
     "Massa": {"kg": 1, "g": 0.001, "mg": 1e-6, "ton": 1000, "lb": 0.4536, "oz": 0.02835},
-    "Waktu": {"s": 1, "min": 60, "hr": 3600, "day": 86400, "ms": 0.001},
+    "Waktu": {"Detik": 1, "Menit": 60, "Jam": 3600, "Hari": 86400, "ms": 0.001},
     "Suhu": {"C": "special", "K": "special", "F": "special", "R": "special"},
     "Tekanan": {"Pa": 1, "kPa": 1000, "MPa": 1e6, "bar": 1e5, "atm": 101325, "mmHg": 133.322, "psi": 6894.76},
     "Energi": {"J": 1, "kJ": 1000, "cal": 4.184, "kcal": 4184, "Wh": 3600, "kWh": 3.6e6, "eV": 1.602e-19},
